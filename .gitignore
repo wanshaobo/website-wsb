@@ -1,0 +1,10 @@
+# OSX
+.DS_Store
+
+#
+.idea/
+
+# node.js
+node_modules/
+
+package-lock.json

@@ -1,5 +1,3 @@
-# website-wsb
-personal website
 #####运行webpack实时监听文件变化
 npm start
 #####运行项目
@@ -16,4 +14,3 @@ dev dependency开发环境
 production dependency生产环境
 
 热加载，页面自动刷新
-

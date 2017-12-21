@@ -1,0 +1,124 @@
+/*首页样式*/
+html{
+  font-family: STKaiti;//失效
+}
+#homepage{
+  #top{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #16a085;
+    .container{
+      width: 1080px;
+      margin: 0 auto;
+      flex-direction: row;
+      color: #fff;
+      .name{
+        font-size: 24px;
+        line-height: 24px;
+      }
+      li{
+        color:#fff;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left:14px;
+        letter-spacing: 2px;
+        font-family: "Apple Symbols"  ;
+      }
+    }
+  }
+  #about{
+    background-color: #f2f2f2;
+    padding: 70px 0;
+    #head{
+      width: 160px;
+      height: 160px;
+      border-radius: 80px;
+      background-color: aqua;
+      margin: 0 auto;
+      overflow: hidden;
+      img{
+        width:100%;
+        height: auto;
+        vertical-align: middle;
+      }
+    }
+    .name{
+      font-size: 20px;
+      color:#000;
+      margin-top: 30px;
+    }
+    .intro{
+      font-size: 18px;
+      color:#555;
+      margin-top: 30px;
+    }
+  }
+  #album{
+    padding: 70px 0;
+    width: 1080px;
+    margin: 0 auto;
+    .title{
+      font-size: 20px;
+      color:#000;
+      border: 1px solid #0ff;
+      width: 200px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    ul{
+      font-size: 0;
+      li{
+        display: inline-block;
+        width: 280px;
+        margin-left: 70px;
+        margin-top: 50px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  #footer{
+    background-color: #2f2f2f;
+    padding: 50px 0;
+    .container{
+      width: 1080px;
+      margin: 0 auto;
+      .wechat{
+        width: 160px;
+        img{
+          width: 100%;
+        }
+      }
+      .title{
+        margin-bottom: 40px;
+      }
+      .info{
+        margin-top: 10px;
+      }
+    }
+  }
+  #website-info{
+    background-color: #ccc;
+    padding: 20px 0 10px;
+    .container{
+      width: 1080px;
+      text-align: center;
+      margin:  0 auto;
+      a:hover{
+        color: #aaa;
+      }
+      .text{
+        font-size: 14px;
+      }
+    }
+  }
+  #cnzz_stat_icon_1271488778{
+    img{
+      text-align: center;
+    }
+  }
+}
