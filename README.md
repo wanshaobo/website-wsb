@@ -1,3 +1,5 @@
+![Image text](./static/img/homepage.png)
+
 ##### 运行webpack实时监听文件变化
 npm start
    
@@ -40,3 +42,9 @@ https://www.cnblogs.com/codingcloud/p/5095066.html
 
 查看文件夹详细信息
 ls -all
+
+
+
+执行任何命令需要加上sudo
+
+
